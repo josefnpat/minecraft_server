@@ -13,6 +13,8 @@ mkdir backups
 
 touch www/locations.txt
 
+mkdir www/maps
+
 ## c10t
 
 ## Build it yourself mate.
