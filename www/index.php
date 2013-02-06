@@ -48,7 +48,7 @@ function get_pid($file){
   $exe = "pgrep -f \"$file\"";
   $pids = explode("\n",trim(`$exe`));
   if(count($pids) > 1){
-    return $pids[0];
+    return $pids[1];
   } else {
     return false;
   }
