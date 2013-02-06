@@ -30,10 +30,13 @@ $current = array_pop($imgs);
         margin: 10px;
       }
       .block {
-        width: 420;
+        width: 420px;
+      }
+      .block img {
+        max-width: 420px;
       }
       .wideblock {
-        width: 900;
+        width: 900px;
       }
     </style>
   </head>
