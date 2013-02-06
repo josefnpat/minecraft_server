@@ -1,0 +1,12 @@
+backups/
+c10t/
+nohup.out
+swap.bin
+server/*.txt
+server/nohup.out
+server/*.properties
+server/world/
+server/server.log*
+server/minecraft_server.jar*
+www/maps/
+www/locations/

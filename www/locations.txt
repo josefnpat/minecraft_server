@@ -1,0 +1,33 @@
+Forbidden Jungle,-2892,64,69[ench][anvil]
+|
+The Open Chasm,-2523,52,-69
+|
+Jungle Harbor Outpost,-2246,55,-114
+|
+Quick Ocean Stop,-947,37,-110
+|  |
+|  Whore Island,-947,37,33[ench][anvil]
+|
+Quiet Feather Islands,-456,33,158
+|
+The Castle,374,118,156[portal][anvil][brew]
+|
+Castle Gate,372,68,232
+|
+Dead Village,632,69,243
+|
+Incept Pyramid,853,46,380
+|  |
+|  Incept Pyramid Labyrinth,872,28,273
+|
+The Western Snow Cross,1106,42,420
+|  |
+|  The Western Crossing,1139,55,599
+|  |  |
+|  |  The Helix Pyramid,770,60,598
+|  |
+|  The Mossy Jungle,1096,71,796
+|
+Underground Worm Mines,1181,41,422
+|
+Obsidian Fort Knox,1370,65,275
