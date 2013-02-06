@@ -13,7 +13,7 @@
 1. Run the setup `./setup.sh`
 2. Make c10t: https://github.com/udoprog/c10t
 3. Softlink (`ln -s`) the www folder to your host directory (e.g. `/var/www/mc`)
-4. 
+
 ### Scripts
 
 The daemon scripts are best run with `nohup`. e.g. `nohup ./daemon_server.sh &`.
