@@ -6,7 +6,10 @@ function memory_usage(){
 }
 $imgs = glob('maps/*.png');
 $current_tn = array_pop($imgs);
-$current = array_pop($imgs);
+$current_map = array_pop($imgs);
+preg_match("@[0-9]+@",$current_map,$matches);
+$current = $matches[0];
+
 ?><html>
   <head>
     <title><?php echo $title; ?></title>
@@ -77,8 +80,8 @@ echo_status("daemon_backup.sh");
       </div>
       <div class="block">
         <h2>Map</h2>
-        <p>Last update: <?php echo @date("r",$current); ?></p>
-        <a href="<?php echo $current; ?>"><img src="<?php echo $current_tn; ?>" /></a>
+        <p>Last update: <?php echo date("r",$current); ?></p>
+        <a href="<?php echo $current_map; ?>"><img src="<?php echo $current_tn; ?>" /></a>
       </div>
       <div class="block">
         <h2>Minecart Map</h2>
